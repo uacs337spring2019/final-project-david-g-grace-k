@@ -1,0 +1,56 @@
+<!--
+Authors: David Gonzales and Grace Kaylor
+File: index.html
+This file provides the html for the index page of our website.
+It is split up into several divs for displaying the welcome messages,
+input boxes, and to display the actual calendar for the users.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="index.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="index.js"></script>
+        <title>My Planner</title>
+    </head>
+    <body>
+        <img src="rightDog.jpg" alt="it's fine" id="rightDog" class="dog">
+        <img src="leftDog.jpg" alt="it's fine" id="leftDog" class="dog">
+
+        <h1>Hello, Welcome to Your Planner!</h1>
+        <div style="width:25%" id="gradanator">
+            Gradanator:
+            <a href="gradanator.html" target="_blank" id="gradanatorLink" class = "button">Calculate Grade!</a>
+        </div>
+
+        <!-- Div for inputting class name  -->
+        <div id="classInput">
+            Class Name:
+            <input type="text" style="width:20%" id="className"/>
+            <button id="submitClass">Submit Class</button>
+        </div>
+
+        <!-- Div holding assignment information  -->
+        <div id="assignmentInput">
+            Select Class:
+            <select name="addedClasses" id="addedClasses">
+                <option selected="selected">Select Class</option>
+            </select>
+            Assignment Name:
+            <input type="text" style="width:15%" id="assignmentName"/>
+            Due Date:
+            <input type="text" placeholder="mm" style="width:5%" id="monthDate"/>
+            <input type="text" placeholder="dd" style="width:5%" id="dayDate"/>
+            <button id="submitAssignment">Submit Assignment</button>
+        </div>
+
+        <div id="refreshBox">
+            <button id="refresh">Update Schedule</button>
+        </div>
+
+        <!-- Div for displaying assignments -->
+        <div id="assignmentHolder">
+            <ul id="dates"></ul>
+        </div>
+    </body>
+</html>

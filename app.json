@@ -1,0 +1,7 @@
+{
+    "name": "index_service.js Node Service File",
+    "description": "service for planner",
+    "repository": "https://github.com/uacs337spring2019/final-project-david-g-grace-k.git",
+    "logo": "",
+    "keywords": ["node", "express", "static"]
+}
