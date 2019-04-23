@@ -62,7 +62,7 @@ add assignments to the calendar.
             'Content-Type' : 'application/json'}, body : JSON.stringify(assignments)
             };
             // posts the new comments to the server
-            let url = "http://final-planner.herokuapp.com";
+            let url = "http://file-planner.herokuapp.com";
             fetch(url, fetchOptions)
                 .then(checkStatus)
                 .then(function(responseText) {
@@ -90,7 +90,7 @@ add assignments to the calendar.
         document.getElementById("dates").innerHTML="";
 
         // fetches calendar on submit
-        let url = "http://final-planner.herokuapp.com";
+        let url = "http://file-planner.herokuapp.com";
         fetch(url)
             .then(checkStatus)
             .then(function(responseText) {
