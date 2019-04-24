@@ -1,6 +1,6 @@
 /**
 Authors: David Gonzales and Grace Kaylor
-File: index.js
+File: planner.js
 This program performs the javascript for our main planner (index) portion of the website.
 It loads one set of input boxes for the user to input information about their assignments
 such as: due date, assignment name, and class. It then allows the user to continuously
