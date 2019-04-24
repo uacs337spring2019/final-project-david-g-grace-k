@@ -13,7 +13,7 @@
    "homepage": "https://github.com/uacs337spring2019/final-project-david-g-grace-k/index_service.js",
   "devDependencies": {},
   "scripts": {
-    "start" : "node index.js",
+    "start" : "node index_service.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": " ",
